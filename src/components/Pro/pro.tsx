@@ -195,7 +195,7 @@ const Pro: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col relative sm:mx-28 sm:p-10  gap-y-16">
+    <div className="flex flex-col relative sm:mx-28 p-3 sm:p-10  gap-y-16">
       {/* head */}
       <div className="bg--200 w-max mx-auto sm:mx-0 sm:w-auto flex flex-col sm:flex-row items-start sm:items-center gap-y-5 sm:gap-y-0 justify-normal sm:justify-between">
         <div className="flex items-center justify-center gap-8">
@@ -229,7 +229,7 @@ const Pro: React.FC = () => {
       {/* list contain & header */}
       <div className="w-full h-fit flex flex-col  bg--200">
         {/* Table Header */}
-        <div className="w-full bg-red-300 flex items-center justify-between px-3 sm:px-20">
+        <div className="w-full bg-black flex items-center justify-between px-3 sm:px-20">
           <div className="bg--400">
             <input
               type="checkbox"
